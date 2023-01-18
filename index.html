@@ -1,65 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
-
-  <style>
-    body{
-      background-color: hsl(228, 26%, 45%);
-    }
-
-    div{
-      /* Positionnement */
-       position:relative;
-       left:40%;
-       top:140px;
-      /* Dimensions */
-       display:block;
-       width:200px;
-       height:450px;
-       padding:10px 20px;
-       margin:10px 20px;
-      /* Texte */
-       color: black;
-       font-size:12px;
-      /* Bordures et fonds */
-       border-radius: 20px;
-       background-color: #fff;
-    }
-
-    img{
-      position:relative;
-      left:-8.5%;
-      padding: 5px 5px;
-      margin: auto;
-      border-radius: 15px;
-    }
-
-    p{
-      text-align: center;
-    }
-
-    .p1{
-      font-size: small;
-
-    }
-
-    strong{
-      font-size: large;
-    }
-
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body>
-  <div>
-    <img src="image-qr-code.png" width="225" height="225"  alt="qr-code"><br><br>
-    <p><strong>Improve your front-end skills by building projects</strong></p>
-    <p class="p1">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
+
+<body style="background-color: gray;">
+    <main class="container" style="text-align: center;  width: 350px; height: 550px; background-color: white;  margin-top:100px; border-radius: 15px;">
+        <img src="image-qr-code.png" width="320" height="320" alt="qr-code-challenge" style="margin-top: 10px; border-radius: 10px;">
+        <br><br>
+        <div>
+            <h4 style="font-weight: bolder;">Improve your front-end skills by building projects</h4>
+            <p style="color: gray;"><small>Scan the QR code to visit Frontend <br>
+                Mentor and take your coding skills to <br>
+                the next level</small>
+            </p>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
